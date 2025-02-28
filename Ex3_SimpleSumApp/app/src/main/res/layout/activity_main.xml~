@@ -56,6 +56,7 @@
         android:layout_marginStart="149dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="149dp"
+        android:onClick="XuLyCong"
         android:text="Tính Tổng"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -65,10 +66,11 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
         android:text="Kết quả:"
-        app:layout_constraintTop_toBottomOf="@+id/btnCong"
-        tools:layout_editor_absoluteX="28dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCong" />
 
     <EditText
         android:id="@+id/editTextNumber"
