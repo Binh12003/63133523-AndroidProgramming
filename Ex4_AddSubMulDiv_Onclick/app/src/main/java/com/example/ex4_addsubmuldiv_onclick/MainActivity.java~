@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Xử lý trừ
-    public void XuLyTru(View v) {
+    void XuLyTru(View v) {
         // code xử lý trừ
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Xử lý nhân
-    public void XuLyNhan(View v) {
+    void XuLyNhan(View v) {
         // code xử lý nhân
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // Xử lý chia
-     public void XuLyChia(View v) {
+    void XuLyChia(View v) {
         // code xử lý chia
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2

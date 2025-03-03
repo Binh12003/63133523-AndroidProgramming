@@ -75,22 +75,19 @@
             android:layout_margin="3dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="-"
-            android:onClick="XuLyTru"/>
+            android:text="-"/>
         <Button
             android:id="@+id/btnNhan"
             android:layout_margin="3dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="*"
-            android:onClick="XuLyNhan"/>
+            android:text="*"/>
         <Button
             android:id="@+id/btnChia"
             android:layout_margin="3dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
-            android:onClick="XuLyChia"/>
+            android:text="/"/>
 
     </LinearLayout>
 
