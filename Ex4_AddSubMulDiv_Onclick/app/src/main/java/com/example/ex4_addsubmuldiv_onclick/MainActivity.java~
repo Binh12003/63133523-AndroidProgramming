@@ -13,13 +13,13 @@ import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
     // Khai báo các đối tượng gắn với ddkhien tương ứng ở đây
-    EditText edtSo1;
-    EditText edtSo2;
-    EditText edtKetQua;
+    EditText editTextSo1;
+    EditText editTextSo2;
+    EditText editTextKetQua;
     Button nutCong,nutTru,nutNhan,nutChia;
     void TimDieuKien() {
-        EditText edtSo1 = findViewById(R.id.edtSo1);
-        EditText edtSo2 = findViewById(R.id.edtSo2);
+        EditText editTextSo1 = findViewById(R.id.edtSo1);
+        EditText editTextSo2 = findViewById(R.id.edtSo2);
         EditText edtKetQua = findViewById(R.id.edtKetQua);
         nutCong = findViewById(R.id.btnCong);
         nutTru = findViewById(R.id.btnTru);
@@ -46,81 +46,81 @@ public class MainActivity extends AppCompatActivity {
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
         // b1.2. Lấy dl từ 2 đkiển đó
-        String so1 = edtSo1.getText().toString();
-        String so2 = edtSo2.getText().toString();
+        String so1 = editTextSo1.getText().toString();
+        String so2 = editTextSo2.getText().toString();
         // b1.3. Chuyển dl từ chuỗi sang số
         float fSo1 = Float.parseFloat(so1);
         float fSo2 = Float.parseFloat(so2);
         // b2. Tính toán
-        float ketQua = fSo1 + fSo2;
+        float tong = fSo1 + fSo2;
         // b3. Hiện thị kết quả
         // b3.1. Chuyển kết quả sang chuỗi
-        String ketQuaChuoi = String.valueOf(ketQua);
+        String ketQuaChuoi = String.valueOf(tong);
         // b3.2. gắn kết quả lên đk
-        edtKetQua.setText(ketQuaChuoi);
+        editTextKetQua.setText(ketQuaChuoi);
 
     }
 
     // Xử lý trừ
-    void XuLyTru(View v) {
+    public void XuLyTru(View v) {
         // code xử lý trừ
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
         // b1.2. Lấy dl từ 2 đkiển đó
-        String so1 = edtSo1.getText().toString();
-        String so2 = edtSo2.getText().toString();
+        String so1 = editTextSo1.getText().toString();
+        String so2 = editTextSo2.getText().toString();
         // b1.3. Chuyển dl từ chuỗi sang số
         float fSo1 = Float.parseFloat(so1);
         float fSo2 = Float.parseFloat(so2);
         // b2. Tính toán
-        float ketQua = fSo1 - fSo2;
+        float hieu = fSo1 - fSo2;
         // b3. Hiện thị kết quả
         // b3.1. Chuyển kết quả sang chuỗi
-        String ketQuaChuoi = String.valueOf(ketQua);
+        String ketQuaChuoi = String.valueOf(hieu);
         // b3.2. gắn kết quả lên đk
-        edtKetQua.setText(ketQuaChuoi);
+        editTextKetQua.setText(ketQuaChuoi);
 
     }
 
     // Xử lý nhân
-    void XuLyNhan(View v) {
+    public void XuLyNhan(View v) {
         // code xử lý nhân
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
         // b1.2. Lấy dl từ 2 đkiển đó
-        String so1 = edtSo1.getText().toString();
-        String so2 = edtSo2.getText().toString();
+        String so1 = editTextSo1.getText().toString();
+        String so2 = editTextSo2.getText().toString();
         // b1.3. Chuyển dl từ chuỗi sang số
         float fSo1 = Float.parseFloat(so1);
         float fSo2 = Float.parseFloat(so2);
         // b2. Tính toán
-        float ketQua = fSo1 * fSo2;
+        float tich = fSo1 * fSo2;
         // b3. Hiện thị kết quả
         // b3.1. Chuyển kết quả sang chuỗi
-        String ketQuaChuoi = String.valueOf(ketQua);
+        String ketQuaChuoi = String.valueOf(tich);
         // b3.2. gắn kết quả lên đk
-        edtKetQua.setText(ketQuaChuoi);
+        editTextKetQua.setText(ketQuaChuoi);
 
     }
 
     // Xử lý chia
-    void XuLyChia(View v) {
+     public void XuLyChia(View v) {
         // code xử lý chia
         // b1. lấy dl 2 số
         // b1.1. Tìm EditText số 1 và 2
         // b1.2. Lấy dl từ 2 đkiển đó
-        String so1 = edtSo1.getText().toString();
-        String so2 = edtSo2.getText().toString();
+        String so1 = editTextSo1.getText().toString();
+        String so2 = editTextSo2.getText().toString();
         // b1.3. Chuyển dl từ chuỗi sang số
         float fSo1 = Float.parseFloat(so1);
         float fSo2 = Float.parseFloat(so2);
         // b2. Tính toán
-        float ketQua = fSo1 / fSo2;
+        float thuong = fSo1 / fSo2;
         // b3. Hiện thị kết quả
         // b3.1. Chuyển kết quả sang chuỗi
-        String ketQuaChuoi = String.valueOf(ketQua);
+        String ketQuaChuoi = String.valueOf(thuong);
         // b3.2. gắn kết quả lên đk
-        edtKetQua.setText(ketQuaChuoi);
+        editTextKetQua.setText(ketQuaChuoi);
 
     }
 }

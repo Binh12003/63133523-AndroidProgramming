@@ -27,7 +27,9 @@
             android:layout_marginTop="0.5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mời nhập một con số ở đây">
+            android:layout_weight="1"
+            android:hint="Mời nhập một con số ở đây"
+            android:inputType="number">
 
         </EditText>
 
@@ -51,7 +53,9 @@
             android:layout_marginTop="0.5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Mời nhập một con số ở đây">
+            android:layout_weight="1"
+            android:hint="Mời nhập một con số ở đây"
+            android:inputType="number">
 
         </EditText>
 
@@ -109,12 +113,13 @@
             android:textSize="18dp" />
         <EditText
             android:id="@+id/edtKetQua"
-            android:paddingLeft="10dp"
-            android:layout_marginTop="0.5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="0.5dp"
             android:hint="Nơi hiện kết quả"
-            android:enabled="false">
+            android:enabled="false"
+            android:inputType="number">
 
         </EditText>
 
