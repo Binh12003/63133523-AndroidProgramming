@@ -5,39 +5,31 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SubActivityOne">
 
     <TextView
-        android:id="@+id/btnChuyen"
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="88dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="88dp"
-        android:background="#03A9F4"
-        android:onClick="ChuyenManHinh"
-        android:text="SANG MÀN HÌNH KHÁC"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.056" />
-
-    <TextView
-        android:id="@+id/btnTrangChu"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="98dp"
-        android:layout_marginTop="38dp"
-        android:layout_marginEnd="98dp"
-        android:background="#EBEFF1"
-        android:text="Màn Hình Trang Chủ"
+        android:layout_marginStart="63dp"
+        android:layout_marginEnd="63dp"
+        android:text="BẠN ĐANG Ở MÀN HÌNH THỨ 2"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="61dp" />
 
+    <TextView
+        android:id="@+id/btnQuayLai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="42dp"
+        android:layout_marginEnd="90dp"
+        android:onClick="QuayVe"
+        android:text="QUAY LẠI TRANG CHỦ"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
