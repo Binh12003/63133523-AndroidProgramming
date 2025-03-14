@@ -24,6 +24,6 @@
         android:layout_height="500dp"
         android:id="@+id/clothImage"
         android:layout_below="@id/clothTitle"
-        android:src="@drawable/clothing"/>
+        android:src="@drawable/Clothing"/>
 
 </RelativeLayout>

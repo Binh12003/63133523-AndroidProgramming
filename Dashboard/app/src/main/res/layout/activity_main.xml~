@@ -90,7 +90,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/clothingImage"
-                        android:src="@drawable/Clothing"
+                        android:src="@drawable/clothing"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -125,7 +125,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/elecImage"
-                        android:src="@drawable/Electronics"
+                        android:src="@drawable/electronics"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -173,7 +173,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/homeImage"
-                        android:src="@drawable/Home"
+                        android:src="@drawable/home"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -208,7 +208,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/beautyImage"
-                        android:src="@drawable/Beauty"
+                        android:src="@drawable/beauty"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -241,16 +241,16 @@
                     android:layout_height="match_parent">
 
                     <TextView
+                        android:id="@+id/pharmName"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/pharmName"
-                        android:text="Pharmacy"
-                        android:textSize="20sp"
-                        android:textColor="@color/lavender"
-                        android:fontFamily="@font/poppins_semibold"
-                        android:layout_marginTop="10dp"
+                        android:layout_below="@+id/pharmImage"
                         android:layout_centerHorizontal="true"
-                        android:layout_below="@+id/pharmImage"/>
+                        android:layout_marginTop="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="Pharmacy"
+                        android:textColor="@color/lavender"
+                        android:textSize="20sp" />
 
                     <ImageView
                         android:layout_width="70dp"

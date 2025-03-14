@@ -90,7 +90,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/clothingImage"
-                        android:src="@drawable/Clothing"
+                        android:src="@drawable/clothing"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -125,7 +125,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/elecImage"
-                        android:src="@drawable/Electronics"
+                        android:src="@drawable/electronics"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -173,7 +173,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/homeImage"
-                        android:src="@drawable/Home"
+                        android:src="@drawable/home"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -208,7 +208,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/beautyImage"
-                        android:src="@drawable/Beauty"
+                        android:src="@drawable/beauty"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -256,7 +256,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/pharmImage"
-                        android:src="@drawable/Pharmacy"
+                        android:src="@drawable/pharmacy"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
@@ -291,7 +291,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:id="@+id/grocImage"
-                        android:src="@drawable/Groceries"
+                        android:src="@drawable/groceries"
                         android:layout_marginTop="15dp"
                         android:layout_centerHorizontal="true"/>
 
