@@ -27,13 +27,13 @@ public class MainActivity extends AppCompatActivity {
         password = findViewById(R.id.password);
         loginButton = findViewById(R.id.loginButton);
 
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        loginButton.setOnClickListener(View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (username.getText().toString().equals("user") && password.getText().toString().equals("1234")) {
-                    Toast.makeText(MainActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(MainActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
+                if (username.getText().toString().equals("admin") && password.getText().toString().equals("1234")) {
+                    Toast.makeText(MainActivity.this, "Login Success!", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(MainActivity.this, "Login Fail!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
