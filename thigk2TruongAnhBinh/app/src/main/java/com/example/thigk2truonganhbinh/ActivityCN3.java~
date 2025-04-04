@@ -40,8 +40,8 @@ public class ActivityCN3 extends AppCompatActivity {
         ListView.setOnItemClickListener(new AdapterView.OnItemClickListener(){
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                String song = dsCM.get(position);
-                Toast.makeText(ActivityCN3.this, "Bạn chọn bài hát", Toast.LENGTH_SHORT).show();
+                String dsCM = dsCM.get(position);
+                Toast.makeText(ActivityCN3.this, "Bạn chọn", Toast.LENGTH_SHORT).show();
             }
         });
     }
