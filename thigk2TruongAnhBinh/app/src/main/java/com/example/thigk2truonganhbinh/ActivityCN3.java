@@ -1,9 +1,6 @@
 package com.example.thigk2truonganhbinh;
 
 import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,22 +8,17 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class ActivityCN2 extends AppCompatActivity {
+public class ActivityCN3 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_cn2);
-
-
-        EditText edtT = findViewById(R.id.edtT);
-        EditText edtN = findViewById(R.id.edtN);
-        TextView tvKQ = findViewById(R.id.tvKQ);
-        Button btnKT = findViewById(R.id.btnKT);
-
-        btnKT.setOnClickListener(v -> {
-
+        setContentView(R.layout.activity_cn3);
+        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
+            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
+            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
+            return insets;
         });
     }
 }
