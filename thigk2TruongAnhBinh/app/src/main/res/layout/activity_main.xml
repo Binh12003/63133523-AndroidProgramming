@@ -11,9 +11,12 @@
         android:id="@+id/imageView"
         android:layout_width="410dp"
         android:layout_height="276dp"
-        app:srcCompat="@drawable/Logo50Nam"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/Logo50Nam" />
 
     <Button
         android:id="@+id/btn2"
@@ -48,7 +51,7 @@
         android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="62dp"
+        android:layout_marginStart="50dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="203dp"
@@ -63,7 +66,7 @@
         android:id="@+id/btnMe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="59dp"
         android:layout_marginBottom="203dp"
