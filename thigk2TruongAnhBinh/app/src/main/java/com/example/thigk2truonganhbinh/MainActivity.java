@@ -29,9 +29,9 @@ public class MainActivity extends AppCompatActivity {
         btn3.setOnClickListener(v -> {
             openActivity(ActivityCN3.class);
         });
-        btn4.setOnClickListener(v -> {
-            openActivity(ActivityCN4.class);
-        });
+//        btn4.setOnClickListener(v -> {
+//            openActivity(ActivityCN4.class);
+//        });
         btnMe.setOnClickListener(v -> {
             openActivity(ActivityAboutMe.class);
         });
