@@ -7,6 +7,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
+    <fragment
+        android:name="com.example.fragmentex_statically.ContentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/frgChanTrang"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    
+    <fragment
+        android:id="@+id/frgChanTrang"
+        android:name="com.example.fragmentex_statically.FooterFragment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
